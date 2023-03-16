@@ -20,13 +20,12 @@ html, body{
 header{
     position: fixed;
     width: 100vw;
-    height: 20vh;
     background-color: black;
     color: white;
     text-align: center;
 }
 header > h1{
-    padding-top: 50px;
+    padding-top: 40px;
     font-variant: small-caps;
     font-family: var(--font2);
     font-weight: lighter;
@@ -36,7 +35,7 @@ header > p{
     padding-bottom: 50px;
 }
 main{
-    padding-top: 100px;
+    padding-top: 150px;
 }
 a{
     color: white;
@@ -56,7 +55,7 @@ section{
 
 }
 section.normal{
-    background-color: white;
+    background-color: rgb(238, 234, 203);
     color: black;
 }
 section.image{
