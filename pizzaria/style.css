@@ -96,6 +96,7 @@ header{
 }
 .corpo img:hover{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+    
 }
 .title{
     background-image: linear-gradient(to right, #971d2a, #821570);
@@ -160,6 +161,7 @@ header{
     font-size: 15px;
     margin-left: -8px;
     line-height: 15px;
+    margin-top: 1%;
 }
 .footer img{
     margin-left: 1.5%;
