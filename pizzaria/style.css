@@ -27,13 +27,14 @@ header{
     float: left;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 2.5vw;
     line-height: 30px;
     top: 0px;
     left: 0px;
     margin-top: 5px;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-left: 20px;
+    
 }
 .menu{
     position: fixed;
