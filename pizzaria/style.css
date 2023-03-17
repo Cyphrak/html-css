@@ -32,24 +32,26 @@ header{
     top: 0px;
     left: 0px;
     margin-top: 15px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 .menu{
     position: fixed;
     margin-left: 25%;
     width: 75%;
-    height: 120px;
+    height: flex;
     float: left;
     top: 0px;
 }
 .meumenu{
+    padding-left: 120px;
+    padding-top:25px;
     list-style: none;
     float: left;
     margin-left: 2%;
     margin-top: 3%;
 }
 .meumenu li{
-    padding: 2.5% 0%;
+    padding-top: 10px;
     height: 20px;
     position:relative;
     float: left;   
@@ -58,7 +60,7 @@ header{
     color: white;
     font-size: 20px;
     text-decoration: none;
-    padding: 15px 25px;
+    padding: 12px;
     display: block;
     border: solid white 1px;
     width: auto;
