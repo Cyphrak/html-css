@@ -16,7 +16,7 @@ body{
 header{
     position: fixed;
     background-image: linear-gradient(to right, #971d2a, #821570);
-    height: 160px;
+    height: 180px;
     width: 100%;
     top: 0px;
 }
@@ -31,7 +31,7 @@ header{
     line-height: 30px;
     top: 0px;
     left: 0px;
-    margin-top: 5px;
+    margin-top: 15px;
     padding-left: 15px;
 }
 .menu{
