@@ -57,7 +57,7 @@ section#sm > a > img{
     box-sizing: border-box;
 }
 section#sm > a > img:hover{
-    border: 3px solid rgba(179, 255, 0, 0.801);
+    border: 5px solid rgba(0, 247, 255, 0.801);
     transform: translate(2px, 2px);
     transition: 0.2s;
 
