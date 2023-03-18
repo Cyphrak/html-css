@@ -22,7 +22,7 @@ main{
 section#tel{
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
@@ -40,7 +40,7 @@ section#sm{
     padding-top: 2%;
 }
 section#sm > a > img{
-    max-width: 50px;
+    max-width: 6vw;
     margin: 20px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
