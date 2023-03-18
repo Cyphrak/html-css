@@ -34,7 +34,7 @@ section#tel{
 }
 section#tel:hover{
     transform: translate(-50.5%, -50.5%);
-    transition: 0.2s;
+    transition: 0.25s;
 
 }
 iframe#tela{
