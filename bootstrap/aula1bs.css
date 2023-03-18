@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    text-align: center;
+    line-height: 2em;
+    font-size: 5vw;
+}
+body{
+    width: 95vw;
+}
+.logo{
+    height: 300px;
+    background-color: red;
+ 
+}
+.form{
+    height: 300px;
+    background-color: blue;
+}
+.banner{
+    height: 400px;
+    background-color: yellow;
+}
+.image1{
+    height: 400px;
+    background-color: orange;
+}
+.image2{
+    height: 400px;
+    background-color: green;
+}
+.image3{
+    height: 400px;
+    background-color: purple;
+}
+.image4{
+    height: 400px;
+    background-color: pink;
+}
