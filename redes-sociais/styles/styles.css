@@ -10,7 +10,7 @@
     height: 0px;
 }
 html, body{
-    height: 910px;
+    height: 810px;
     background-color: rgb(0, 0, 0);
 }
 body{
@@ -46,11 +46,10 @@ iframe#tela{
 section#sm{
     text-align: right;
     padding-top: 8%;
-    min-height: 100vh;
 }
 section#sm > a > img{
-    max-height: 9vh;
-    max-width: 9vw;
+    max-height: 8.5vh;
+    max-width: 8.5vw;
     margin-top: 15px;
     margin-right: 10px;
     border-radius: 50%;
