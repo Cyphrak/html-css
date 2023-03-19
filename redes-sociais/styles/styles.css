@@ -49,8 +49,8 @@ section#sm{
     min-height: 100vh;
 }
 section#sm > a > img{
-    max-height: 10vh;
-    max-width: 10vw;
+    max-height: 9vh;
+    max-width: 9vw;
     margin-top: 15px;
     margin-right: 10px;
     border-radius: 50%;
