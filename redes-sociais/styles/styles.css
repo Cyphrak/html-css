@@ -10,9 +10,8 @@
     height: 0px;
 }
 html, body{
-    height: 102.8vh;
-    width: 100vw;
-    background-color: black;
+    height: 910px;
+    background-color: rgb(0, 0, 0);
 }
 body{
     background: url(../imagens/fundo-blue.jpg) no-repeat top center;
@@ -46,10 +45,12 @@ iframe#tela{
 }
 section#sm{
     text-align: right;
-    padding-top: 5%;
+    padding-top: 8%;
+    min-height: 100vh;
 }
 section#sm > a > img{
-    max-width: 6vw;
+    max-height: 10vh;
+    max-width: 10vw;
     margin-top: 15px;
     margin-right: 10px;
     border-radius: 50%;
