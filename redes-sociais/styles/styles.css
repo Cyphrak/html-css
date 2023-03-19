@@ -45,12 +45,11 @@ iframe#tela{
 }
 section#sm{
     text-align: right;
-    padding-top: 10%;
 }
 section#sm > a > img{
     max-height: 8.5vh;
     max-width: 8.5vw;
-    margin-top: 15px;
+    margin-top: 55px;
     margin-right: 10px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
