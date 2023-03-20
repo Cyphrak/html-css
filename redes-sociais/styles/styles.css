@@ -46,7 +46,7 @@ iframe#tela{
 section#sm{
     position: absolute;
     top: 15%;
-    left: 7%;
+    left: 3%;
     text-align: left;
    
 }
@@ -66,7 +66,7 @@ section#sm > a > img:hover{
 section#sm2{
     position: absolute;
     top: 15%;
-    left: 87%;
+    left: 90%;
     text-align: left;
 }
 section#sm2 > a > img{
