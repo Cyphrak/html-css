@@ -23,7 +23,7 @@ main{
 }
 section#tel{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 627px;
@@ -44,16 +44,15 @@ iframe#tela{
     height: 471px;
 }
 section#sm{
+    margin-left: 35%;
+    width: 30%;
     position: absolute;
-    top: 15%;
-    left: 2.5%;
-    text-align: left;
-   
+    text-align: center;
+    top: 2%;
 }
 section#sm > a > img{
     max-height: 8.5vh;
     max-width: 8.5vw;
-    margin-top: 55px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     box-sizing: border-box;
@@ -63,24 +62,6 @@ section#sm > a > img:hover{
     transform: translate(2px, 2px);
     transition: 0.2s;
 }
-section#sm2{
-    position: absolute;
-    top: 15%;
-    left: 90%;
-    text-align: left;
-}
-section#sm2 > a > img{
-    max-height: 8.5vh;
-    max-width: 8.5vw;
-    margin-top: 55px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
-    box-sizing: border-box;
-}
-section#sm2 > a > img:hover{
-    border: 5px solid rgba(0, 247, 255, 0.801);
-    transform: translate(2px, 2px);
-    transition: 0.2s;
-}
+
 
 
