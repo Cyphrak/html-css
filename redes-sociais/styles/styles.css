@@ -48,7 +48,7 @@ section#sm{
     width: 30%;
     position: absolute;
     text-align: center;
-    top: 2%;
+    top: 3%;
 }
 section#sm > a > img{
     max-height: 8.5vh;
