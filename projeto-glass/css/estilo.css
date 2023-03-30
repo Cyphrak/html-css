@@ -33,7 +33,7 @@ p{
 header#cabeçalho{
     border-bottom: 1px solid black;
     height: 150px;
-    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 95px;
+    background: url(../imagens/glass-logo-peq.jpg) no-repeat 0px 95px;
 }
 
 header#cabeçalho h1{
