@@ -193,3 +193,16 @@ figure.fotolegenda > figcaption{
 figure.fotolegenda:hover > figcaption{
     opacity: 1;
 }
+div#video-corpo video{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+div#video-lateral video{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 350px;
+}
