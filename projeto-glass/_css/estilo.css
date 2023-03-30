@@ -1,0 +1,176 @@
+@charset 'UTF-8';
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(212, 212, 212);
+    color: rgba(0, 0, 0, 1);
+}
+
+p{
+    text-align: justify;
+    text-indent: 10px;
+}
+
+header#cabeçalho{
+    border-bottom: 1px solid black;
+    height: 150px;
+    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 95px;
+}
+
+header#cabeçalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    color: gray;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
+    margin-bottom: 0px;
+}
+
+header#cabeçalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: rgb(146, 146, 146);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);
+}
+
+header#cabeçalho img#icone{
+    width: 100px;
+    position: absolute;
+    left: 980px;
+    top: 90px;
+}
+nav#menu{
+    display: block;
+}
+
+nav#menu > h1{
+    display: none;
+}
+
+nav#menu > ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 500px;
+}
+
+nav#menu > ul > li{
+    display: inline-block;
+    background-color: grey;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu > ul > li:hover{
+    background-color: rgb(68, 68, 68);
+
+}
+
+nav#menu ul > li > a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu ul > li > a:hover{
+    color: white;
+}
+
+section#corpo{
+    display: block;
+    width: 600px;
+    float: left;
+    border-right: 1px solid black;
+    padding-right: 15px;
+}
+
+table#tabelaspec caption{
+    color: rgb(73, 73, 73);
+    font-weight: bolder;
+    font-size: 13pt;
+}
+
+table#tabelaspec > caption > span{
+    display: block;
+    float: right;
+    color: black;
+    font-size: 10pt;
+    margin-top: 10px;
+}
+table#tabelaspec{
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table#tabelaspec td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table#tabelaspec td.ce{
+    color: white;
+    background-color: rgb(73, 73, 73);  
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd{
+    background-color: lightgray;   
+}
+
+
+aside#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+    padding-right: 15px;
+}
+
+footer#rodape{
+    padding-top: 10px;
+    line-height: 25px;
+    text-align: center;
+    clear: both;
+    border-top: 1px solid black;
+    font-weight: bold;
+}
+
+div#interface{
+    width: 1000px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    padding: 10px 10px 10px 10px;
+}
+
+figure.fotolegenda{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.fotolegenda > img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.fotolegenda > figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.fotolegenda:hover > figcaption{
+    opacity: 1;
+}
