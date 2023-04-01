@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color: gray;
+}
+
+.logo{
+    background-color: black;
+    height: 120px;
+    text-align: center;
+}
+
+.logo p{
+    margin-top: 8%;
+    color: white;
+    font-size: 30px; 
+}
+
+.form{
+    background-color: black;
+    height: 120px;
+}
+
+.form form{
+    margin-top: 5%;
+}
+div.banner{
+    padding: 0px;
+}
